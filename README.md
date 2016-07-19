@@ -11,3 +11,36 @@ I receive the following response back:
 </result>
 
 
+
+I also tried a saveDonor this way, but receive the same invalid error:
+
+	$donor_params = array(
+			'donor_id' => '0',
+			'first_name' => 'Mike',
+			'last_name' => 'Henderson',
+			'middle_name' => 'P',
+			'suffix' => '',
+			'title' => '',
+			'salutation' => '',
+			'prof_title' => 'Tester',
+			'opt_line' => '',
+			'address' => '1234 Test St',
+			'address2' => '#2',
+			'city' => 'Bend',
+			'state' => 'OR',
+			'zip' => '97701',
+			'country' => 'US',
+			'address_type' => '',
+			'home_phone' => '1234567890',
+			'business_phone' => '',
+			'fax_phone' => '',
+			'mobile_phone' => '',
+			'email' => 'ninetysix@gmail.com',
+			'org_rec' => '',
+			'donor_type' => '',
+			'nomail' => '',
+			'nomail_reason' => '',
+			'narrative' => '',
+			'user_id' => ''
+	);
+  $saveTestDonor = DonorPerfect::saveDonor($donor_params);
