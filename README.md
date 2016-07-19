@@ -6,10 +6,10 @@ When running index_test.php, the API URL it hits is as follows:
 
 
 I receive the following response back:
-<result>
-  <field name="success" id="success" reason="invalid: Array cannot be null.rnParameter name: bytes" value="false"/>
-</result>
 
+    <result>
+      <field name="success" id="success" reason="invalid: Array cannot be null.rnParameter name: bytes" value="false"/>
+    </result>
 
 
 I also tried a saveDonor this way, but receive the same invalid error:
